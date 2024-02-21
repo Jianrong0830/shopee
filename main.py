@@ -1,9 +1,3 @@
-'''
-先在cmd打這個，會開啟一個Chrome視窗，先手動登入蝦皮然後不要關掉
-cd C:\Program Files\Google\Chrome\Application
-chrome.exe --remote-debugging-port=9000 --user-data-dir="D:\selenium\AutomationProfile"
-'''
-
 import time
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
