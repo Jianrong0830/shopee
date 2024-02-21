@@ -2,6 +2,7 @@
 蝦皮爬蟲
 
 先在cmd打下面指令，會開啟一個Chrome視窗，先手動登入蝦皮然後不要關掉
+
 cd 'YOUR_CHROME_PATH' (大多是C:\Program Files\Google\Chrome\Application)
 chrome.exe --remote-debugging-port=9000 --user-data-dir="D:\selenium\AutomationProfile"
 
