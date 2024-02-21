@@ -11,3 +11,5 @@ chrome.exe --remote-debugging-port=9000 --user-data-dir="D:\selenium\AutomationP
 有時太常爬還是會被擋，重開輸入驗證碼即可。
 
 蝦皮圖片為動態載入，雖然已經有用滾輪，有時網路慢還是會抓不到，這時就稍微調高等待時間。
+
+元件class名稱好像蝦皮會定期更新，抓不到就要改成新的。
