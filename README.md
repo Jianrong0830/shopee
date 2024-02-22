@@ -1,10 +1,10 @@
 # shopee
 蝦皮爬蟲
 
-先在cmd打下面指令，會開啟一個Chrome視窗，先手動登入蝦皮然後不要關掉
+先在cmd打下面指令，會開啟一個Chrome視窗，先手動登入蝦皮並進入要爬的商店首頁，不要關掉
 
 cd 'YOUR_CHROME_PATH' (大多是C:\Program Files\Google\Chrome\Application)
-chrome.exe --remote-debugging-port=9000 --user-data-dir="D:\selenium\AutomationProfile"
+chrome.exe --remote-debugging-port=9222 --user-data-dir="D:\selenium\AutomationProfile"
 
 程式會用這個chrome爬取，比較不容易被發現是機器人。
 
